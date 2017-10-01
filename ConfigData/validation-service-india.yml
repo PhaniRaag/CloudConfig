@@ -7,7 +7,7 @@ validation:
         letters : ^[0-9]*$
         numbers : \\b[^\\d\\W]+\\b
         sequence : (\\w+?)\\1
-        length : ^(?!.*\b\w{5,12}\b).+$
+        length : ^(?!.{5,12}$).*
         upperCase : "[A-Z]+"
    errorMessages:
                 sequence : Same sequence should not be repeated.
