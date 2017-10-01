@@ -4,7 +4,7 @@ validation:
    genericMessage: Password must consist of a mixture of lowercase letters and numerical digits only, with at least one of each.
    rules:
         special : "[^A-Za-z0-9]"
-        letters : ^[0-9]*$
+        letters : ^(?!.*[a-z]).+$
         numbers : \\b[^\\d\\W]+\\b
         sequence : (\\w+?)\\1
         length : ^(?!.{5,12}$).*
