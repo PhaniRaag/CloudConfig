@@ -1,6 +1,6 @@
 validation:
    nullPwd: Password should not be null.
-   success: Password is acceptedD.
+   success: Password is accepted.
    genericMessage: Password must consist of a mixture of lowercase letters and numerical digits only, with at least one of each.
    rules:
         special : "[^A-Za-z0-9]"
